@@ -23,7 +23,6 @@ const isUnique = (str) => {
 //  Brute Force:  O(N^2)
 
 // CTCI_ SOLN 1
-
 const isUnique2 = (str) => {
   const maxChar = 256;
   if (str.length > 256) return false;
